@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤖 Real-Time AI Chatbot with Streaming
 
-## Getting Started
+A modern, real-time AI chatbot application featuring streaming responses from Google Gemini AI using WebSocket communication. Built with Next.js, TypeScript, and Socket.io.
 
-First, run the development server:
+## ✨ Features
+
+- **Real-time streaming responses** from Google Gemini AI
+- **WebSocket communication** using Socket.io for bidirectional communication
+- **Typing indicators** showing when AI is processing
+- **Connection status monitoring** with visual indicators
+- **Auto-scroll** to latest messages
+- **Character limit** indicator with validation
+- **Error handling** with user-friendly messages
+- **Responsive design** that works on mobile and desktop
+- **Markdown rendering** in AI responses
+- **Copy to clipboard** functionality for AI messages
+- **Clear chat** functionality
+- **Clean, modern UI** built with Tailwind CSS
+
+## 🛠 Tech Stack
+
+### Frontend
+- **Next.js 14** - React framework with App Router
+- **React 18** - UI library with functional components and hooks
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first CSS framework
+- **Socket.io Client** - WebSocket client library
+- **react-markdown** - Markdown rendering
+- **lucide-react** - Icons
+  
+### Backend
+- **Node.js** - Runtime environment
+- **Socket.io** - WebSocket server
+- **Google Generative AI** - Gemini API integration
+- **Next.js API Routes** - Custom server setup
+
+## 🚀 Installation
+
+### Step 1: Clone the Repository
+
+```bash
+git clone <https://github.com/navbug/realtime-ai-chatbot>
+cd realtime-ai-chatbot
+```
+
+### Step 2: Install Dependencies
+
+```bash
+npm install
+```
+
+### Step 3: Get Your Gemini API Key
+
+1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Sign in with your Google account
+3. Click "Create API Key"
+4. Copy your API key
+
+### Step 4: Set Up Environment Variables
+
+Create a `.env` file in the root directory:
+
+Edit `.env` and add your Gemini API key:
+
+```env
+GEMINI_API_KEY=your_actual_api_key_here
+```
+
+## 🎮 Running the Project
+
+### Development Mode
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will start on [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## ⏱ Time Spent
 
-To learn more about Next.js, take a look at the following resources:
+Total time: **12-15 hours**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎥 Demo Video
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[**Watch Demo Video**](#) ← *Add your video link here*
