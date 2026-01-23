@@ -89,5 +89,6 @@ Total time: **12-15 hours**
 
 ## 🎥 Demo Video
 
-[**Watch Demo Video 1**](https://www.loom.com/share/d5cc2bb7c5fb412e866bdbba4abf5ef6)
-[**Watch Demo Video 2**](https://www.loom.com/share/2975887b23cc41ccbf6c1735182ddba6)
+[**Loom Demo Video 1**](https://www.loom.com/share/d5cc2bb7c5fb412e866bdbba4abf5ef6)
+
+[**Loom Demo Video 2**](https://www.loom.com/share/2975887b23cc41ccbf6c1735182ddba6)
